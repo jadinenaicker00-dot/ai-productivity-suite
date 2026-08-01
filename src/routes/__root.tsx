@@ -80,21 +80,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workplace AI - Productivity Assistant for Office Teams" },
+      { title: "Dashboard | Workplace AI Productivity Assistant" },
       {
         name: "description",
         content:
-          "Automate everyday office work with AI: draft emails, summarise research and get instant answers in one clean workspace.",
+          "Track emails generated, research summaries, AI chats and time saved, then jump straight into your next task.",
       },
       { name: "author", content: "Workplace AI" },
-      { property: "og:title", content: "Workplace AI - Productivity Assistant for Office Teams" },
+      { property: "og:title", content: "Dashboard | Workplace AI Productivity Assistant" },
       {
         property: "og:description",
         content:
-          "Automate everyday office work with AI: draft emails, summarise research and get instant answers in one clean workspace.",
+          "Track emails generated, research summaries, AI chats and time saved, then jump straight into your next task.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Dashboard | Workplace AI Productivity Assistant" },
+      { name: "twitter:description", content: "Track emails generated, research summaries, AI chats and time saved, then jump straight into your next task." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2153188f-33f6-42f0-9afc-2d6c13c2b98b/id-preview-2a5a5920--74f86645-097b-4c56-a9cc-042be03ed74e.lovable.app-1785598094276.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2153188f-33f6-42f0-9afc-2d6c13c2b98b/id-preview-2a5a5920--74f86645-097b-4c56-a9cc-042be03ed74e.lovable.app-1785598094276.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
