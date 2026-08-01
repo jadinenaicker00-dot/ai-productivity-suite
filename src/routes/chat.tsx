@@ -162,7 +162,7 @@ function WorkplaceChat() {
             />
             <PromptInputFooter className="justify-end">
               <PromptInputSubmit
-                status={thinking ? "submitted" : undefined}
+                status={thinking ? "submitted" : "ready"}
                 disabled={!input.trim() || thinking}
               />
             </PromptInputFooter>
